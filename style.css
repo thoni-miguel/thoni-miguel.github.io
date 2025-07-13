@@ -22,3 +22,10 @@ body {
   color: #fff;
   border: none;
 }
+
+.hero {
+  background-color: var(--brand-primary);
+  color: #fff;
+  padding: calc(var(--spacing-unit) * 4) 0;
+  text-align: center;
+}
