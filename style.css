@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+  --font-family-base: 'Inter', sans-serif;
+  --brand-primary: #3a7b99;
+  --brand-accent: #ffb703;
+  --spacing-unit: 1rem;
+}
+
+body {
+  font-family: var(--font-family-base);
+}
+
+.brand-heading {
+  color: var(--brand-primary);
+  margin-top: calc(var(--spacing-unit) * 2);
+  margin-bottom: calc(var(--spacing-unit) * 1.5);
+}
+
+.brand-button {
+  background-color: var(--brand-accent);
+  color: #fff;
+  border: none;
+}
